@@ -1,0 +1,591 @@
+/* General Styleing??????????? */
+
+@charset "UTF-8";
+address,
+blockquote,
+body,
+dd,
+dl,
+dt,
+fieldset,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+iframe,
+legend,
+li,
+ol,
+p,
+pre,
+textarea,
+ul {
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+main,
+nav {
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", "avenir";
+}
+
+.mobNavBar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  top: 0%;
+  background-color: #111111fa;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: #eaecee;
+  overflow: hidden;
+}
+
+.mg1 {
+  margin: 5px;
+}
+
+.mg2 {
+  margin: 10px;
+}
+
+.mt1 {
+  margin-top: 10px;
+}
+
+.mt2 {
+  margin-top: 20px;
+}
+.mb1 {
+  margin-bottom: 10px;
+}
+.mb2 {
+  margin-bottom: 20px;
+}
+
+.p1 {
+  padding: 5px;
+}
+.p2 {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* General Styleing end??????????? */
+
+.navbar .mobicon {
+  display: none;
+}
+
+.home_body {
+  background-image: url("homebg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-color: #eaecee;
+}
+
+.about_body {
+  background-color: #eaecee;
+  /* background-image: url("homebg.jpg"); */
+}
+/* Container */
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.navbar ul {
+  color: black;
+  margin-left: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  float: left;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.navbar a:hover {
+  color: #c29370;
+}
+
+.navbar a.active {
+  color: #c29370 !important;
+}
+
+.home_main_content {
+  width: 100%;
+  padding-top: 13%;
+  padding-right: 25%;
+  padding-left: 25%;
+}
+.homeh6 {
+  padding-bottom: 15px;
+}
+
+.homeh6 h6 {
+  text-transform: uppercase;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.25em;
+  color: rgb(169, 169, 169);
+}
+.underline {
+  width: 60px;
+  border-bottom: 2px solid rgb(169, 169, 169);
+}
+
+.homeh1 {
+  padding-top: 30px;
+}
+
+.homeh1 h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  font-family: "Playfair Display", serif;
+  line-height: 1.4em;
+}
+
+.homep1 p {
+  letter-spacing: 10px;
+  padding-top: 10px;
+  font-size: 1.5rem;
+}
+
+.roundbtns {
+  margin-top: 40px;
+  display: flex;
+}
+
+.roundbtns a {
+  font-size: 1.2rem;
+}
+
+.rbCall {
+  margin-right: 5px;
+}
+
+.rbCall a {
+  background-color: #c29370;
+  padding: 20px 80px;
+  border-radius: 30px;
+  color: white;
+}
+
+/* .rbWorks {
+} */
+
+.rbWorks a {
+  border: 1px solid black;
+  padding: 20px 80px;
+  border-radius: 30px;
+}
+
+.footing {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  background-color: #eaecee;
+}
+
+.socials {
+  padding-top: 30px;
+}
+
+.socials a {
+  text-transform: uppercase;
+  padding: 5px;
+}
+.copyr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyr p {
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+/* About Page Design */
+.aboutme_container {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+th {
+  text-align: left;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+.about_content h1 {
+  font-size: 50px !important;
+  color: #818181;
+}
+
+.about_content p {
+  width: 60%;
+  text-align: justify;
+}
+.about_img {
+  width: 40%;
+  border: 5px solid #dcdedf;
+}
+
+.address a {
+  border: 1px solid black;
+  padding: 5px 20px;
+  border-radius: 15px;
+}
+
+.pcomp span {
+  color: #c29370;
+}
+
+/* Portfollio Page ... . .. .. .. .. .. .. .. /////............ */
+.port_content {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 0%;
+  padding-bottom: 5%;
+}
+
+.port-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  justify-content: center;
+  gap: 6rem;
+}
+
+.grid-item {
+  box-shadow: 0 4px 14px hsl(355deg 25% 15% / 10%);
+  padding: 15px;
+  border-radius: 0.5rem;
+}
+
+.grid-item img {
+  width: 100%;
+}
+
+.grid-item h1 {
+  text-align: center;
+  padding: 2px;
+  font-size: 2rem;
+}
+.grid-item p {
+  padding: 5px;
+  background-color: white;
+}
+
+.morework-btn {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+.hide {
+  display: none !important;
+}
+
+.morework-btn button {
+  background-color: #c29370;
+  padding: 10px 30px;
+  font-size: 2rem;
+  color: white !important;
+  border-radius: 25px;
+  border: 0;
+  cursor: pointer;
+}
+
+.port_Title {
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+.port_Title h1 {
+  font-size: 4rem;
+}
+
+.round-frame {
+  display: none;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+  .home_body {
+    background-image: none;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; */
+    background-color: #eaecee;
+  }
+
+  .mobNavBar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0%;
+    background-color: #111111fa;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .home_main_content {
+    width: 100%;
+    padding-top: 15%;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .home_body {
+    background-image: none;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; */
+    background-color: #eaecee;
+  }
+
+  .aboutme_container {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .port_content {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .about_content p {
+    width: 100%;
+    text-align: justify;
+    /* font-size: 0.9rem; */
+  }
+
+  .navbar a {
+    display: none;
+  }
+  .navbar a:hover {
+    color: black;
+  }
+  .navbar .mobicon {
+    float: right !important;
+    display: block !important;
+  }
+
+  .mobNavBar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0%;
+    background-color: #111111fa;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .mobNavBar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .mobNavBar a:hover {
+    color: #f1f1f1;
+  }
+
+  .mobNavBar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .home_main_content {
+    width: 100%;
+    padding-top: 40%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .homeh1 {
+    padding-top: 10px;
+  }
+
+  .homeh1 h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+    line-height: 1.3em;
+  }
+
+  .homeh6 {
+    padding-bottom: 15px;
+  }
+
+  .homeh6 h6 {
+    font-weight: 350;
+    font-size: 1rem;
+    line-height: 1em;
+  }
+  .underline {
+    width: 40px;
+    border-bottom: 2px solid rgb(169, 169, 169);
+  }
+
+  .roundbtns a {
+    font-size: 1rem;
+  }
+
+  .roundbtns {
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .homep1 p {
+    font-size: 0.9rem;
+    letter-spacing: 5px;
+    padding-top: 10px;
+  }
+
+  .rbCall a {
+    padding: 5px 30px;
+    background-color: #c29370;
+    margin-right: 5px;
+    border-radius: 20px;
+  }
+  .rbWorks a {
+    padding: 5px 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+  .copyr p {
+    padding: 5px;
+    font-size: 0.6rem;
+  }
+
+  .port-grid {
+    gap: 2rem;
+  }
+
+  .tohide {
+    display: none;
+  }
+
+  .special {
+    padding: 0;
+  }
+
+  .port_Title {
+    padding-bottom: 10px;
+  }
+  .port_Title h1 {
+    font-size: 2rem;
+  }
+
+  .round-frame {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    /* border: 1px solid #000; Optional: border color and size */
+  }
+
+  .round-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .navimglink {
+    display: block !important;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .mobNavBar {
+    padding-top: 15px;
+  }
+  .mobNavBar a {
+    font-size: 18px;
+  }
+}
