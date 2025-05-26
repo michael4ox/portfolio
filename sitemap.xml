@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://michael4ox.github.io/portfolio/</loc>
-    <lastmod>2025-04-22</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2025-05-29</lastmod>
     <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
   </url>
 
   <url>
     <loc>https://michael4ox.github.io/portfolio/aboutport.html</loc>
-    <lastmod>2025-04-22</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2025-05-29</lastmod>
     <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
   </url>
 
   <url>
     <loc>https://michael4ox.github.io/portfolio/portfollio.html</loc>
-    <lastmod>2025-04-22</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2025-05-29</lastmod>
     <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
   </url>
 
 </urlset>
