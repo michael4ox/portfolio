@@ -239,12 +239,12 @@ a {
 }
 
 .socials {
-  padding-top: 30px;
+  padding-top: 70px;
 }
 
 .socials a {
   text-transform: uppercase;
-  padding: 5px;
+  padding: 15px;
 }
 .copyr {
   display: flex;
