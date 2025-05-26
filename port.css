@@ -592,13 +592,13 @@ td {
   }
 
   .rbCall a {
-    padding: 5px 30px;
+    padding: 10px 30px;
     background-color: #c29370;
     margin-right: 5px;
     border-radius: 20px;
   }
   .rbWorks a {
-    padding: 5px 30px;
+    padding: 10px 30px;
     border: 1px solid black;
     border-radius: 20px;
   }
@@ -628,8 +628,8 @@ td {
   }
 
   .round-frame {
-    width: 55px;
-    height: 55px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     overflow: hidden;
     display: inline-block;
