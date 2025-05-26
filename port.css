@@ -470,7 +470,7 @@ td {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .home_body {
-    /* background-image: none; */
+    background-image: none;
     background-color: #fbfbfb;
   }
 
