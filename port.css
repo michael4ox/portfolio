@@ -158,7 +158,7 @@ a {
 }
 
 .navbar a.active {
-  color: #c29370 !important;
+    color: #fe6c00 !important;
 }
 
 .home_main_content {
@@ -208,7 +208,7 @@ a {
 }
 
 .roundbtns a {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
 }
 
 .rbCall {
@@ -217,7 +217,7 @@ a {
 
 .rbCall a {
   background-color: #c29370;
-  padding: 20px 80px;
+  padding: 15px 65px;
   border-radius: 30px;
   color: white;
 }
@@ -227,7 +227,7 @@ a {
 
 .rbWorks a {
   border: 1px solid black;
-  padding: 20px 80px;
+  padding: 15px 65px;
   border-radius: 30px;
 }
 
@@ -396,11 +396,11 @@ td {
   }
 
   .rbCall a {
-    padding: 10px 50px;
+    padding: 10px 40px;
   }
 
   .rbWorks a {
-    padding: 10px 50px;
+    padding: 10px 40px;
   }
 
   .homeh6 h6 {
@@ -577,7 +577,7 @@ td {
   }
 
   .roundbtns a {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
   }
 
   .roundbtns {
