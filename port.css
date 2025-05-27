@@ -270,7 +270,7 @@ a {
 }
 
 .about_image img {
-  width: 35rem;
+  width: 25rem;
   border-top: 10px solid #c29370;
   border-left: 10px solid #c29370;
   border-bottom: 10px solid #d6a783;
@@ -418,7 +418,7 @@ td {
 /* Medium devices (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
   .about_image img {
-    width: 20rem;
+    width: 15rem;
   }
 
   .home_body {
