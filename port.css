@@ -455,12 +455,14 @@ td {
     padding: 10px 40px;
     border-radius: 30px;
     color: white;
+    font-size: 1rem;
   }
 
   .rbWorks a {
     border: 1px solid black;
     padding: 10px 40px;
     border-radius: 30px;
+    font-size: 1rem;
   }
 
   .aboutme_container {
@@ -591,15 +593,17 @@ td {
   }
 
   .rbCall a {
-    padding: 10px 30px;
+    padding: 7px 14px;
     background-color: #c29370;
     margin-right: 5px;
     border-radius: 20px;
+    font-size: 1rem;
   }
   .rbWorks a {
-    padding: 10px 30px;
+    padding: 7px 14px;
     border: 1px solid black;
     border-radius: 20px;
+    font-size: 1rem;
   }
 
   .copyr p {
