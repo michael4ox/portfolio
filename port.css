@@ -597,13 +597,13 @@ td {
     background-color: #c29370;
     margin-right: 5px;
     border-radius: 20px;
-    font-size: 1rem;
+    font-size: 0.7rem !important;
   }
   .rbWorks a {
     padding: 7px 14px;
     border: 1px solid black;
     border-radius: 20px;
-    font-size: 1rem;
+    font-size: 0.7rem !important;
   }
 
   .copyr p {
