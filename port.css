@@ -263,6 +263,7 @@ a {
   padding-top: 2%;
   padding-bottom: 5%;
   display: flex;
+  background-color: #fbfbfb;
 }
 
 .about_image {
